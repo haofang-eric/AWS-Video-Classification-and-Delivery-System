@@ -6,7 +6,7 @@ from boto.sqs.message import Message, RawMessage
 class SQS(object):
     def __init__(self):
         self.conn = boto.sqs.connect_to_region("us-east-1")
-        self.queue = self.conn.get_queue('ngn_test_queue')
+        self.queue = self.conn.get_queue('<>')
         #self.queue.set_message_class(RawMessage)
 
     def send_message(self, message):
