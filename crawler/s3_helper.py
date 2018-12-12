@@ -5,7 +5,7 @@ from hashlib import md5
 from boto.s3.key import Key
 from filechunkio import FileChunkIO
 
-BUCKET_NAME = "ngnvideotagger"
+BUCKET_NAME = "<>"
 
 
 class Bucket(object):
